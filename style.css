@@ -1,0 +1,327 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.polniy {
+    color: white;
+}
+
+.navigation {
+    text-align: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-color: #006599;
+    vertical-align: baseline;
+}
+
+.nav-spisok {
+    color: white;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+.container {
+    width: 30%;
+    background-color: #006599;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 40%
+}
+
+a:hover {
+    color: #ebe65c;
+}
+
+li {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.spisok-ssylok {
+    color: white;
+    width: 300px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.logo-name-image, .navigation {
+    background-color: #006599;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content-sayt {
+    position: relative;
+    top: -0.5em;
+    float: right;
+    max-width: 70%;
+    vertical-align: text-top;
+    overflow: auto;
+}
+
+
+h2 {
+    color: #006599;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 40px;
+}
+
+h3 {
+    color: #006599;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 30px;
+}
+
+p {
+    color: #7c7e83;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.vtoraya-chast {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+a.button {
+    background-color: #006599;
+    font-size: 20px;
+    padding: 15px 45px;
+    color: white;
+    text-decoration: none;
+    left: 524px;
+}
+
+a.button:hover {
+    opacity: 0.8;
+    color: #ebe65c;
+}
+
+.vtoraya-chast-image {
+    float: left;
+}
+
+.abouttheteams {
+    min-height: 550px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+#razmer {
+    width: 450px;
+    height: 550px;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+.foto5 {
+    width: 120vw;
+}
+
+.foto3 {
+    width: 70vw;
+}
+
+.foto4 {
+    width: 100vw;
+}
+
+.foto5-gallery {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    width: 10%;
+}
+
+.secondgallery, .thirdgallery, .galleryone, .napolnenie-content {
+    padding: 15px;
+}
+
+.foto3-gallery {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 31%;
+}
+
+.galleryone {
+    height: auto;
+    margin-top: 0px;
+}
+
+.foto4-gallery {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16%;
+}
+
+.abouttheteams, .galleryone, .secondgallery, .thirdgallery, img {
+    max-width: 100%;
+}
+
+footer {
+    display: block;
+    background-color: white;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+
+@media all and (max-width: 1000px) {
+    * {
+        max-width: 100%;
+    }
+
+    body {
+        height: 95%;
+    }
+
+    div.container, .logo-name-image, .nav-spisok {
+        width: 100%;
+        height: auto;
+        background-color: #006599;
+    }
+
+    .spisok-ssylok {
+        display: none;
+    }
+
+    li:hover {
+        color: #ebe65c;
+    }
+
+    .content-sayt {
+        padding-top: 200px;
+        width: 100%;
+        top: -2.2em;
+    }
+
+    .content-sayt {
+        position: absolute;
+        max-width: 100%;
+    }
+
+    .logo-name-image {
+        font-size: 10px;
+
+    }
+
+    .navigation, .nav-spisok {
+        display: inline;
+        font-size: 35px;
+    }
+
+    .nav-spisok {
+        background-image: url(image/strelka.png);
+        background-size: cover;
+    }
+
+    a.button {
+        position: static;
+        left: 50px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    a {
+        position: static;
+    }
+
+    div.container {
+        position: relative;
+    }
+
+    .secondgallery, .thirdgallery, .galleryone, .napolnenie-content, .abouttheteams {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .galleryone {
+        padding-right: 0;
+    }
+
+    #razmer {
+        position: relative;
+        left: 55px;
+        width: 70%;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .vtoraya-chast-image {
+        float: right;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    p {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .foto5-gallery {
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 5px;
+        width: 16%;
+    }
+
+    .foto3 {
+        width: auto;
+    }
+
+    .foto4-gallery {
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 23%;
+    }
+
+    div {
+        width: auto;
+        height: auto;
+    }
+
+    .vtoraya-chast {
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .prostoy-podval {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .abouttheteams {
+        width: auto;
+        min-height: 500px;
+    }
+}
